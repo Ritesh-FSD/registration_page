@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #E5E5E5;
+}
+.rect{
+  position: absolute;
+  width: 769.01px;
+  height: 13.44px;
+  left: -124.11px;
+  top: 496.09px;
+  background: #E0E8FC;
+  transform: rotate(-30deg);
+}
+.rect2{ 
+  position: absolute;
+  width: 769.01px;
+  height: 13.44px;
+  left: 792px;
+  top: 436.51px;
+  background: #3766E8;
+  opacity: 0.2;
+  transform: rotate(-30deg);
+}
+.header{
+  position: absolute;
+  width: 160px;
+  height: 36.02px;
+  left: 60px;
+  top: 60px;
+  /* background: url('images/logo.png'); */
+}
+.loginbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 91px;
+  gap: 24px;
+  position: absolute;
+  width: 560px;
+  height: 611px;
+  left: 440px;
+  top: 93px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+}
+/* .rectangle1{
+  position: absolute;
+  font-size: 20px;
+  left: 0%;
+  right: 78.34%;
+  top: 50.12%;
+  bottom: -8.13%;
+  width: 11px;
+  height:27.84px;
+  background: #3766E8;
+  border-radius: 100px;
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.rectangle2{
+  position: absolute;
+  font-size: 20px;
+  left: 23.31%;
+  right: 55.02%;
+  top: 18.03%;
+  bottom: -6.3%;
+  width: 11px;
+  height:42.37px;
+  background: #3766E8;
+  border-radius: 100px;
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.rectangle3{
+  position: absolute;
+  font-size: 20px;
+  width: 11px;
+  height:21.55px;
+  left: 59.92%;
+  right: 18.42%;
+  top: 11.96%;
+  bottom: 43.15%;
+  background: #3766E8;
+  border-radius: 100px;
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+
+} */
+.loginbox .heading1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #212121;
+}
+.loginbox .subheading{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #545454;
+}
+label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.cname{
+  box-sizing: border-box;
+  position: relative;
+  width: 368px;  
+  padding: 5px;  
+  left: 0px;
+  right: 0px;
+  top:0;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 6px;
+}
+.btn{
+  color: #545454;
+  font-size: 10px;
+  background-color: #D3D3D3;
+  border-radius: 20px;
+}
+.submit-btn{
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 8px;
+  width: 368px;
+  height: 36px;
+  background: #3766E8;
+  border-radius: 5px;
+  font-size:14px;
+  margin-top: 40px;
+}
